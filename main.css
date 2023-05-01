@@ -1,0 +1,119 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.nvb{
+display: flex;
+width: 100%;
+height: 8vh;
+background-color: white;
+color: black;
+align-items: center;
+justify-content: space-between;
+padding: 0 40px;
+position: fixed;
+box-shadow: 0 0 6px 0;
+}
+.ad{
+letter-spacing: 5px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ad:hover{
+background-color: gray;
+}
+.inf{
+display: flex;
+gap: 30px;
+letter-spacing: 3px;
+height: 30px;
+justify-content: center;
+align-items: center;
+}
+.inf span:hover{
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+width: 100%;
+height: 99vh;
+background-repeat: no-repeat;
+}
+.p1{
+font-size: 35px;
+bottom: 30px;
+position: absolute;
+letter-spacing: 7px;
+color: rgb(98, 96, 96);
+padding: 0 15px;
+}
+.info{
+width: 100%;
+height: 100vh;
+margin: 40px 0;
+display: flex;
+justify-content: center;
+gap: 100px;
+}
+.img1{
+width: 30%;
+height: 80%;
+
+}
+.info2{
+width: 30%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+font-size: 19px;
+border-bottom: 1px solid;
+}
+
+.text2{
+width: 100%;
+height: 110vh;
+display: flex;
+justify-content: center;
+gap: 50px;
+font-family: 'Amatic SC', cursive;
+font-family: 'Playfair Display', serif;
+}
+.info3{
+padding: 55px 0;
+border-bottom: 1px solid;
+}
+.text3{
+width: 100%;
+height: 95vh;
+margin: 40px 30px;
+padding: 50px;
+}
+.input{
+width: 80%;
+height: 50px;
+border: none;
+border-bottom: 1px solid;
+}
+.btn{
+background-color: rgb(215, 212, 212);
+color:black;
+width: 10%;
+height: 5%;
+border: none;
+}
+.end{
+width: 100%;
+height: 8vh;
+background-color:rgb(227, 222, 222) ;
+display: flex;
+justify-content: center;
+align-items: center;
+}
